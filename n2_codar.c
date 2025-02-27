@@ -18,7 +18,7 @@
         scanf("%d", &matricula);
 
         printf("Nome do aluno: %s - Matricula: %d", nome, matricula);
-        printf("- Altura: %.2f", idade, altura);
+        printf(" idade: %d - Altura: %.2f", idade, altura);
 
         return 0;
     }
