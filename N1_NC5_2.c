@@ -1,14 +1,11 @@
  #include <stdio.h>
 
     int main () {
-        int idade = 18;
-        float altura = 1.76;
-        char opcao = 'D';
-        char nome[20] = "Jean";
-        
-        printf(" A idade de %s é: %d\n", nome, idade);
-        printf("A altura é: %e\n", altura);
-        printf("A opção é: %c\n", opcao);
+        char nome[20];
+
+        printf("Coloque seu nome: ");
+        fgets(nome, 20, stdin);
+        printf("Nome e sobrenome digitado: %s\n", nome);
 
         return 0;
     }
