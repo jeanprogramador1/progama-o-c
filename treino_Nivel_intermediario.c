@@ -1,16 +1,16 @@
 #include <stdio.h>
     
    int main () {
-        int numeroNORMAL = 2147483647; //Valor maximo do int
-        long  int numerogrande = 2147483647;
+          unsigned long int numeroGrandePositivo = 4000000000;
+          unsigned int numeropositivo = 4000000000;
+          long int numeroGrande = 4000000000;
+          int numero = 4000000000;
 
-        printf("Numero normal: %d\n", numeroNORMAL);
-        printf("Numero grande: %ld\n", numerogrande);
+          printf("Numero positivo grande: %lu\n", numeroGrandePositivo);
+          printf("Numero positivo: %u\n", numeropositivo);
+          printf("Numero Grande: %ld\n", numeroGrande);
+          printf("Numero: %d\n", numero);
 
-        numerogrande = 2147483648;
-
-        printf("Numero grande: %ld\n", numerogrande);
-
-        return 0;
+          return 0;
    }
 
