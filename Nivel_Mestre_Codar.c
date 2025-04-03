@@ -4,7 +4,7 @@
         char produtoA[30] = "Produto A";
         char produtob[30] = "Produto B";
 
-        unsigned in
+        unsigned int
 
 
 
