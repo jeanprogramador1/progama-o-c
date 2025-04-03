@@ -1,16 +1,12 @@
 #include <stdio.h>
     
    int main () {
-          unsigned long int numeroGrandePositivo = 4000000000;
-          unsigned int numeropositivo = 4000000000;
-          long int numeroGrande = 4000000000;
-          int numero = 4000000000;
+     int numer01 = 8;
+     int numer02 = 20;
 
-          printf("Numero positivo grande: %lu\n", numeroGrandePositivo);
-          printf("Numero positivo: %u\n", numeropositivo);
-          printf("Numero Grande: %ld\n", numeroGrande);
-          printf("Numero: %d\n", numero);
+     printf("numer01 > numer02: %d\n", numer01 > numer02);
 
-          return 0;
+     return 0;
    }
+   
 
