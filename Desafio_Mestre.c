@@ -43,7 +43,7 @@
         //O nome da cidade, precisa ser JUNTO.
 
         printf("Nome da cidade: ");
-        scanf("%s", nome1);
+        scanf(" %[^\n]", nome1);
 
         //A população da cidade, sem a virgula e ponto, tudo junto.
 
@@ -78,7 +78,7 @@
         scanf("%s", codigo2);
 
         printf("Nome da cidade: ");
-        scanf("%s", nome2);
+        scanf(" %[^\n]", nome2);
 
         printf("População: ");
         scanf("%d", &populacao2);
