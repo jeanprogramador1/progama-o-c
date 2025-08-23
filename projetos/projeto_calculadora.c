@@ -61,8 +61,6 @@
             printf("Então seu resultado deu %.2f!!\n", resultado);
             }
            
-            
-            
             break;
 
             case 5:
