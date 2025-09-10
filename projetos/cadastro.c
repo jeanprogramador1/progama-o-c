@@ -22,12 +22,11 @@
                 printf("Digite o Endereço\n");
                 scanf("%29s", enderecodoemail);
                 
-                strcpy(nomedoemail, enderecodoemail);
                 strcat(nomedoemail, "@");
                 strcat(nomedoemail, enderecodoemail);
                 strcat(nomedoemail, ".com");
 
-                printf("Seu email cadastrado é: %s", nomedoemail);
+                printf("Seu email cadastrado é: %s\n", nomedoemail);
 
                 break;
             case 2:
@@ -36,7 +35,7 @@
                 */
                     printf("Vamos Criar uma Senha aleatoria\n");
                     int num_da_senha;
-                        printf("Digite os 5 numeros\n");
+                        printf("Digite o tamanho da senha(1 a 5)\n");
                         scanf("%d", &num_da_senha);
                         if(num_da_senha < 1 || num_da_senha > 5){
                             printf("Numero invalido, tente de novo!\n");
@@ -74,7 +73,7 @@
         
     }
     int main(){
-        int opcao
+        int opcao;
             do{
                 menu();
                 scanf("%d", &opcao);
