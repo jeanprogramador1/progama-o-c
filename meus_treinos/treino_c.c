@@ -1,15 +1,13 @@
 #include <stdio.h>
 
-    void menu() {
-        int opcao, numero1, numero2;
-        float resultado;
+    int main(){
+        float notas[3] = {10.5, 9.8, 8.9};
 
-        printf("\nOla! Bem vindo ao programa calculadora\n");
-        printf("Selecione uma das opções abaixo\n");
-        printf("1) Soma");
-        printf("2) Subtração");
-        printf("3) Divisão");
-        printf("4) Multiplicação");
-        scanf("%d", )
-
+        printf("O aluno Gabriel teve a media de: %.2f\n", notas[0]);
+        printf("A aluna jessica teve a media de: %.2f\n", notas[1]);
+        printf("O aluno leo teve a media de : %.2f\n", notas[2]);
+        
+        return 0;
     }
+
+    
